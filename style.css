@@ -1,0 +1,111 @@
+header {
+    background-color: rgb(120, 93, 143); 
+}
+body > header {
+    background-color: rgb(80, 9, 9); 
+    color: lavenderblush;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 8px;
+    font-family: "Berkshire Swash", "Baskervville SC", "Fredericka the Great", "Kalnia Glaze", Kurale, sans-serif;
+    font-size: 7vh;
+    text-shadow: 4px 4px rgb(20, 1, 20);
+    box-shadow: 10px 10px 15px 5px rgb(20, 1, 20);
+    width: 25%;
+    border-radius: 15%;
+    background-color: rgb(120, 93, 143); 
+ }
+
+body > header > nav > ul {
+    list-style: none;
+    display: flex
+}
+
+body > header > nav > ul > li {
+    margin: 8px;
+}
+
+body > header > nav > ul > ol {
+    list-style: none;
+}
+
+.navbutton1 {
+    padding: 10px;
+    border: 1px solid lavenderblush;
+    border-radius: 50%;
+    text-decoration: none;
+    color: lavenderblush
+}
+
+body> header > nav > ul > ol > li > a {
+    padding: 2px;
+    border: 1px solid lavenderblush;
+    text-decoration: none;
+    color: lavenderblush
+}
+
+body {
+    background-color: rgb(120, 93, 143);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+body > main aside {
+    width: 70%;
+}
+
+body > main > div > div > article {
+    width: 75%;
+    margin: auto
+}
+body > footer {
+    display: flex;
+    background-color: rgb(2, 2, 70);
+    color:lavenderblush
+}
+
+#footer-ul{
+    display: flex;
+}
+
+#footer-ul > div > li {
+    margin-left: 24px;
+}
+
+#footer-ul > div > li > a {
+    text-decoration: none;
+    color:lavenderblush
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+}
+
+form {
+    text-align: center;
+}
+
+body > main > h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(120, 93, 143);
+}
+
+footer > section > nav > ul {
+    margin-bottom: 0px
+}
