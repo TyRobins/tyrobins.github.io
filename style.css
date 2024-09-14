@@ -82,6 +82,10 @@ body {
     justify-content: space-around;
 }
 
+#image-grid {
+    display: grid;
+}
+
 body > main aside {
     width: 70%;
 }
