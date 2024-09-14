@@ -39,7 +39,7 @@ body > header > nav > ul > li {
     margin: 8px;
 }
 
-body > header > nav > ul > ol {
+body > header > nav > ul > li > ul {
     list-style: none;
 }
 
@@ -51,12 +51,25 @@ body > header > nav > ul > ol {
     color: lavenderblush
 }
 
-body> header > nav > ul > ol > li > a {
+body> header > nav > ul > li > ul > li > a {
     padding: 2px;
     border: 1px solid lavenderblush;
     text-decoration: none;
     color: lavenderblush
 }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(80, 9, 9);
+    min-width: 100px;
+    box-shadow: 10px 10px 15px 5px rgb(20, 1, 20);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
 
 body {
     background-color: rgb(120, 93, 143);
@@ -115,3 +128,9 @@ footer {
 footer > section > nav > ul {
     margin-bottom: 0px
 }
+
+
+
+
+
+
