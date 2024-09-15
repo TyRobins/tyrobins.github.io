@@ -82,9 +82,57 @@ body {
     justify-content: space-around;
 }
 
-#image-grid {
-    display: grid;
+#walt1, #walt2, #walt3, #walt4, #walt5, #walt6, #walt7, #walt8, #walt9, #walt10, #walt11, #walt12, #walt13, #walt14, #walt15, #walt16, #walt17, #walt18, #walt19, #walt20, #walt21, #walt22, #walt23, #walt24, #walt25, #walt26, #walt27 {
+    margin: 0;
+    padding: 0;
+    height: 45vh;
+    width: auto;
 }
+
+#walt1 {grid-area: walt1}
+#walt2 {grid-area: walt2}
+#walt3 {grid-area: walt3}
+#walt4 {grid-area: walt4}
+#walt5 {grid-area: walt5}
+#walt6 {grid-area: walt6}
+#walt7 {grid-area: walt7}
+#walt8 {grid-area: walt8}
+#walt9 {grid-area: walt9}
+#walt10 {grid-area: walt10}
+#walt11 {grid-area: walt11}
+#walt12 {grid-area: walt12}
+#walt13 {grid-area: walt13}
+#walt14 {grid-area: walt14}
+#walt15 {grid-area: walt15}
+#walt16 {grid-area: walt16}
+#walt17 {grid-area: walt17}
+#walt18 {grid-area: walt18}
+#walt19 {grid-area: walt19}
+#walt20 {grid-area: walt20}
+#walt21 {grid-area: walt21}
+#walt22 {grid-area: walt22}
+#walt23 {grid-area: walt23}
+#walt24 {grid-area: walt24}
+#walt25 {grid-area: walt25}
+#walt26 {grid-area: walt26}
+#walt27 {grid-area: walt27}
+
+.walters-grid {
+    display: grid;
+    grid-template-areas: 
+    "walt1 walt2 walt3"
+    "walt4 walt5 walt6"
+    "walt7 walt8 walt9"
+    "walt10 walt11 walt12"
+    "walt13 walt14 walt15"
+    "walt16 walt17 walt18"
+    "walt19 walt20 walt21"
+    "walt22 walt23 walt24"
+    "walt25 walt26 walt27";
+    gap: 0;
+}
+
+
 
 body > main aside {
     width: 70%;
