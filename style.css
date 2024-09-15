@@ -132,7 +132,81 @@ body {
     gap: 0;
 }
 
+#mdub1, #mdub2, #mdub3, #mdub4, #mdub5, #mdub6, #mdub7, #mdub8, #mdub9, #mdub10, #mdub11, #mdub12, #mdub13, #mdub14, #mdub15, #mdub16, #mdub17, #mdub18, #mdub19, #mdub20, #mdub21, #mdub22, #mdub23, #mdub24, #mdub25, #mdub26, #mdub27, #mdub28, #mdub29, #mdub30, #mdub31, #mdub32, #mdub33, #mdub34, #mdub35, #mdub36, #mdub37, #mdub38, #mdub39, #mdub40, #mdub41, #mdub42, #mdub43, #mdub44, #mdub45, #mdub46 {
+    margin: 0;
+    padding: 0;
+    height: 35vh;
+    width: auto;
 
+}
+
+#mdub1 {grid-area: mdub1}
+#mdub2 {grid-area: mdub2}
+#mdub3 {grid-area: mdub3}
+#mdub4 {grid-area: mdub4}
+#mdub5 {grid-area: mdub5}
+#mdub6 {grid-area: mdub6}
+#mdub7 {grid-area: mdub7}
+#mdub8 {grid-area: mdub8}
+#mdub9 {grid-area: mdub9}
+#mdub10 {grid-area: mdub10}
+#mdub11 {grid-area: mdub11}
+#mdub12 {grid-area: mdub12}
+#mdub13 {grid-area: mdub13}
+#mdub14 {grid-area: mdub14}
+#mdub15 {grid-area: mdub15}
+#mdub16 {grid-area: mdub16}
+#mdub17 {grid-area: mdub17}
+#mdub18 {grid-area: mdub18}
+#mdub19 {grid-area: mdub19}
+#mdub20 {grid-area: mdub20}
+#mdub21 {grid-area: mdub21}
+#mdub22 {grid-area: mdub22}
+#mdub23 {grid-area: mdub23}
+#mdub24 {grid-area: mdub24}
+#mdub25 {grid-area: mdub25}
+#mdub26 {grid-area: mdub26}
+#mdub27 {grid-area: mdub27}
+#mdub28 {grid-area: mdub28}
+#mdub29 {grid-area: mdub29}
+#mdub30 {grid-area: mdub30}
+#mdub31 {grid-area: mdub31}
+#mdub32 {grid-area: mdub32}
+#mdub33 {grid-area: mdub33}
+#mdub34 {grid-area: mdub34}
+#mdub35 {grid-area: mdub35}
+#mdub36 {grid-area: mdub36}
+#mdub37 {grid-area: mdub37}
+#mdub38 {grid-area: mdub38}
+#mdub39 {grid-area: mdub39}
+#mdub40 {grid-area: mdub40}
+#mdub41 {grid-area: mdub41}
+#mdub42 {grid-area: mdub42}
+#mdub43 {grid-area: mdub43}
+#mdub44 {grid-area: mdub44}
+#mdub45 {grid-area: mdub45}
+#mdub46 {grid-area: mdub46}
+
+.mdub-grid {
+    display: grid;
+    grid-template-areas:
+    "mdub1 mdub2 mdub3"
+    "mdub4 mdub5 mdub6"
+    "mdub7 mdub8 mdub9"
+    "mdub10 mdub11 mdub12"
+    "mdub13 mdub14 mdub15"
+    "mdub16 mdub17 mdub18"
+    "mdub19 mdub20 mdub21"
+    "mdub22 mdub23 mdub24"
+    "mdub25 mdub26 mdub27"
+    "mdub28 mdub29 mdub30"
+    "mdub31 mdub32 mdub33"
+    "mdub34 mdub35 mdub36"
+    "mdub37 mdub38 mdub39"
+    "mdub40 mdub41 mdub42"
+    "mdub43 mdub44 mdub45";
+    gap: 0;
+}
 
 body > main aside {
     width: 70%;
