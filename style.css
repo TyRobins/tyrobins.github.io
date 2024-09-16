@@ -16,6 +16,10 @@ header > img {
     border-radius: 30%;
 }
 
+main > img {
+    max-height: 45vh 
+}
+
 
 #logo {
     margin-top: 0px;
@@ -216,6 +220,11 @@ body > main > div > div > article {
     width: 75%;
     margin: auto
 }
+
+#Fiction-points {
+    display: flex
+}
+
 body > footer {
     display: flex;
     background-color: rgb(2, 2, 70);
